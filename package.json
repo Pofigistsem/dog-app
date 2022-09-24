@@ -1,0 +1,43 @@
+{
+  "name": "dog-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate": "graphql-codegen"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.4.0",
+    "@mantine/form": "^5.4.0",
+    "@mantine/hooks": "^5.4.0",
+    "@mantine/next": "^5.4.0",
+    "apollo-server": "^3.10.2",
+    "apollo-server-micro": "^3.10.2",
+    "class-validator": "^0.13.2",
+    "graphql": "^15.7.0",
+    "graphql-request": "^5.0.0",
+    "micro": "^9.4.1",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.2",
+    "reflect-metadata": "^0.1.13",
+    "tabler-icons-react": "^1.55.0",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.12.1",
+    "@graphql-codegen/typescript": "^2.7.3",
+    "@graphql-codegen/typescript-graphql-request": "^4.5.5",
+    "@graphql-codegen/typescript-operations": "^2.5.3",
+    "@graphql-codegen/typescript-react-query": "^4.0.1",
+    "@types/react": "18.0.21",
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.1"
+  }
+}
